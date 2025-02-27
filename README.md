@@ -1,18 +1,18 @@
 # Telnet Transceiver Data Collector
 
-## 📌 Descrição
+##  Descrição
 Este projeto permite a coleta de dados de transceptores dos switches Zygxel via **Telnet**, autenticando-se e executando comandos para obter informações sobre status e medições.
 
-## 🚀 Funcionalidades
-- ✅ Conexão automática via **Telnet**
-- 🔐 Autenticação com credenciais armazenadas em variáveis de ambiente
-- ⚡ Execução de comandos remotos e captura de saída
-- 📊 Extração e formatação de dados de transceptores
-- 📝 Registro de logs e armazenamento de dados **JSON**
+##  Funcionalidades
+-  Conexão automática via **Telnet**
+-  Autenticação com credenciais armazenadas em variáveis de ambiente
+-  Execução de comandos remotos e captura de saída
+-  Extração e formatação de dados de transceptores
+-  Registro de logs e armazenamento de dados **JSON**
 
-## 📋 Requisitos
-- 🐍 **Python 3.8+**
-- 📦 Bibliotecas:
+##  Requisitos
+-  **Python 3.8+**
+-  Bibliotecas:
   - `asyncio`
   - `telnetlib3`
   - `dotenv`
@@ -21,7 +21,7 @@ Este projeto permite a coleta de dados de transceptores dos switches Zygxel via 
   - `json`
   - `datetime`
 
-## ⚙️ Configuração
+##  Configuração
 1. Clone este repositório:
    ```sh
    git clone https://github.com/seu-usuario/seu-repositorio.git
@@ -38,7 +38,7 @@ Este projeto permite a coleta de dados de transceptores dos switches Zygxel via 
    switch_command=COMANDO_A_EXECUTAR
    ```
 
-## ▶️ Uso
+##  Uso
 Execute o script principal:
 ```sh
 python main.py
@@ -51,7 +51,7 @@ python -m asyncio run main()
 
 Os resultados serão armazenados no arquivo **`logs/log_transceiver_data.json`**.
 
-## 📂 Estrutura do JSON de Saída
+##  Estrutura do JSON de Saída
 ```json
 {
     "device_name": "Switch01",
@@ -69,7 +69,7 @@ Os resultados serão armazenados no arquivo **`logs/log_transceiver_data.json`**
 }
 ```
 
-## 📝 Logs
+##  Logs
 Os logs são armazenados na pasta **`logs/`**, com detalhes das conexões e erros.
 
 ## 🤝 Contribuição
@@ -80,5 +80,5 @@ Contribuições são bem-vindas! Para isso:
 4. Envie um push (`git push origin minha-feature`)
 5. Abra um **Pull Request**
 
-## 📜 Licença
+##  Licença
 Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
